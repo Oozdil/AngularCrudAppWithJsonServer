@@ -125,7 +125,7 @@ export class ContentComponent implements OnInit {
 
     this.api.postEmployee(this.employeeModel).subscribe(
       res => {
-        this.toastr.success(this.employeeModel.firstName + " " + this.employeeModel.lastName + " deleted", "Employee Delete");
+        this.toastr.success(this.employeeModel.firstName + " " + this.employeeModel.lastName + " created", "Employee Create");
 
         this.formValue.reset();
         let ref = document.getElementById("cancel");
