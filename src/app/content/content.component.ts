@@ -133,7 +133,7 @@ export class ContentComponent implements OnInit {
         this.getEmployees();
       },
       error => {
-        alert("error");
+        this.toastr.warning(this.employeeModel.firstName + " " + this.employeeModel.lastName + " not created", "Employee Create");
       }
 
     );
