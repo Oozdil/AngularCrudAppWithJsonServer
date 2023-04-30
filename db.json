@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "id": 4,
+      "firstName": "Orçun",
+      "lastName": "Özdil",
+      "email": "a@b.com",
+      "mobile": "50505313213",
+      "salary": "50000"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
